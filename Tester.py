@@ -42,7 +42,7 @@ def getUserMove(b_x,b_y):
 
 if __name__ == "__main__":
     searchmethod = SearchMethod()
-    board = Board(7,6)
+    board = Board(5,5)
     first_time = False
     report = {
         "max_depth": 5,
